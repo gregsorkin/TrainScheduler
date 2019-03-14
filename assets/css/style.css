@@ -1,0 +1,68 @@
+body {
+    background-image: url("../images/trainStation.jpg");
+    background-color: white;
+    background-repeat: no repeat; 
+    background-size: cover;
+    line-height: 1.5px;
+    letter-spacing: .16px;
+    align-content: center;
+}
+
+.wrapper {
+    margin: 10px 50px;
+}
+
+@font-face {
+    font-family: "Ticking Timebomb";
+    src: url("TickingTimebombBB.otf");
+}
+
+#currentTime {
+    font-family: "Ticking Timebomb";
+    color: lime;
+    font-size: 30px;
+}
+
+.jumbotron {
+    width: 100%;
+    text-align: center;
+    background-color: #aaacabd0;
+}
+
+.timeP {
+    color: white;
+    font-family: "Ticking Timebomb";
+    font-size: 26px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.trainTable, .trainForm {
+    width: 100%;
+}
+
+label {
+    color: whitesmoke;;
+}
+
+.card-header {
+    background-color: #424242c4;
+    color: whitesmoke;
+}
+
+.card {
+    background-color: #aaacabc4;
+}
+
+#submitBtn {
+    background-color: #424242;
+}
+
+#submitBtn.hover {
+    background-color: #c0c2c1;
+    color: lime;
+}
+
+.fa-trash-alt {
+    color: crimson;
+}
